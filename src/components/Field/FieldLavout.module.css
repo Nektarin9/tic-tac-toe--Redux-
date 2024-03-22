@@ -1,0 +1,24 @@
+.FieldLavoutButton {
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	background: none;
+	border: 1px solid white;
+	font-size: 100px;
+}
+.red {
+	color: #f30000;
+}
+.green {
+	color: #1eff00;
+}
+
+@media (max-width: 600px) {
+	.FieldLavoutButton {
+		text-align: center;
+		padding: 0px;
+		width: 80px;
+		height: 80px;
+		font-size: 60px;
+	}
+}

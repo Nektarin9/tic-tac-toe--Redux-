@@ -1,0 +1,18 @@
+.InformationLayoutContainer {
+	text-align: center;
+	margin: 15px auto;
+	font-size: 45px;
+}
+@media (max-width: 600px) {
+	.InformationLayoutContainer {
+		font-size: 35px;
+		margin: 5px auto;
+	}
+}
+.InformationLayouColorRed {
+	color: red;
+}
+
+.InformationLayouColorGreen {
+	color: rgb(0, 255, 4);
+}
